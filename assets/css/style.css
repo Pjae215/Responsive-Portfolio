@@ -1,0 +1,65 @@
+/**
+ * My Bio
+ **/
+
+BODY {
+  MARGIN: 0;
+  background: #ffffff;
+  FONT-WEIGHT: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.CONTAINER{
+  WIDTH: 100%;
+  margin 0;
+}
+HEADER{
+  background: beige;
+}
+
+HEADER ::after{
+  CONTENT: "";
+  DISPLAY: TABLE;
+  CLEAR: BOTH;
+}
+.NAME{
+  float: left;
+  color: WHITE;
+  background-color: teal;
+  MARGIN: 0;
+  WIDTH: 35%;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+NAV{
+  FLOAT: RIGHT;
+  width: 40%;
+}
+
+NAV UL{
+  MARGIN: 0;
+  PADDING: 0;
+  list-style-type: NONE;
+}
+
+NAV li{
+  DISPLAY: INLINE-BLOCK;
+  margin-left: 45PX;
+  padding-top: 10PX;
+  position: relative;
+}
+NAV A{
+  color: blue;
+  font-size: 14PX;
+}
+
+.box{
+  margin: 0 10px 0 10px;
+  width: 960px;
+  position: absolute;
+  height: 300px;
+  background: lightblue; 
+}
+.
+
+  
