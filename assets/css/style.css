@@ -2,7 +2,7 @@
  * My Bio
  **/
 
-BODY {
+ BODY {
   MARGIN: 0;
   background: #ffffff;
   FONT-WEIGHT: 300;
@@ -60,6 +60,25 @@ NAV A{
   height: 300px;
   background: lightblue; 
 }
-.
+/**added media queries**/
 
+   @media only screen and (max-width:980px) {
+    BODY { 
+      width: 100%;
+      padding: 20px;
+      
+    }
+  }
   
+  
+  @media only screen and (max-width: 768px) {
+    BODY { 
+      width: 100%;
+      padding: 20px;
+    }}
+    @media only screen and (max-width: 640px){
+      BODY { 
+        width: 100%;
+        padding: 20px;
+        position: static;
+      }}
